@@ -20,12 +20,10 @@ public class Main10816_HashMap {
 
         for (int i = 0; i < input.length; i++) {
 
-            if( haveCards.get(Integer.parseInt(input[i])) == null){
-                haveCards.put(Integer.parseInt(input[i]), 0);
-            }
-            else{
-                haveCards.put(Integer.parseInt(input[i]),haveCards.get(Integer.parseInt(input[i]))+1);
-            }
+            int num = Integer.parseInt(input[i]);
+
+            haveCards.put(num, haveCards.getOrDefault(num, 0) +1);
+
 
         }
 
@@ -38,35 +36,12 @@ public class Main10816_HashMap {
 
         for (int j = 0; j < Ints.length; j++) {
             int Int = Integer.parseInt(Ints[j]);
-            sb.append(haveCards.get(Int) + " ");
+            sb.append(haveCards.getOrDefault(Int, 0)).append(" ");
         }
 
-        System.out.println(sb);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(sb.toString().trim());
 
     }
-
-
-
-
 
 
 }

@@ -7,6 +7,8 @@ import java.util.Queue;
 
 public class Main2206 {
 
+    // 이제 불이 붙으려는 칸으로 이동 X -> 불 먼저다.
+
     static int N,M;
     static int count;
     static int[][] Board;

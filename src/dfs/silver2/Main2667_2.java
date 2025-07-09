@@ -104,6 +104,7 @@ public class Main2667_2 {
         for (int r : result) {
             System.out.println(r);
         }
+        System.out.println();
 
     }
 

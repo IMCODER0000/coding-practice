@@ -93,7 +93,7 @@ public class Main2667_2 {
                 if (!visited[i][j] && board[i][j] != 0) {
                     result.add(BFS(i, j));
                 }
-                
+
             }
         }
 

@@ -15,15 +15,10 @@ public class Main1987ByBFS_BAD {
 
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1};
-
     static Set<String> isPassed;
-
     static int R, C;
-
     static int count, max;
-
     static int Max;
-
     static class Point {
         int x, y, depth;
         Set<String> isPassed = new HashSet<>();

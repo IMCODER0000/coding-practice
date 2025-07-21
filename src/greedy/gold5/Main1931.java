@@ -17,7 +17,6 @@ public class Main1931 {
             String[] ab = br.readLine().split(" ");
             int a = Integer.parseInt(ab[0]);
             int b = Integer.parseInt(ab[1]);
-
             Is[i][0] = a;
             Is[i][1] = b;
 
@@ -36,13 +35,7 @@ public class Main1931 {
                 startTime = Is[i][1];
             }
         }
-
-
         System.out.println(count);
-
-
-
-
     }
 
 }

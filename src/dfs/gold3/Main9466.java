@@ -24,9 +24,7 @@ public class Main9466 {
             }
             teamCount++;
         }
-
         finished[node] = true;
-
     }
 
     public static void main(String[] args) throws Exception {

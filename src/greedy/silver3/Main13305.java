@@ -14,6 +14,7 @@ public class Main13305 {
 
 
         int[] dis = new int[cNum-1];
+
         int disSum = 0;
         String[] A = br.readLine().split(" ");
         for (int i = 0; i < cNum-1; i++) {

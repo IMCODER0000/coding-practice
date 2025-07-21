@@ -8,13 +8,10 @@ public class Main11047 {
     public static void main(String[] args) throws Exception {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
-
         String[] NK = br.readLine().split(" ");
 
         int N = Integer.parseInt(NK[0]);
         int K = Integer.parseInt(NK[1]);
-
 
         int[] coins = new int[N];
         int count = 0;

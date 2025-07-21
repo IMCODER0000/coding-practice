@@ -10,7 +10,6 @@ public class Main2606 {
     static boolean[] visited;
     static int count;
 
-
     static void dfs(int node) {
         visited[node] = true;
         for (int next : graph[node]) {
@@ -45,20 +44,10 @@ public class Main2606 {
             graph[b].add(a);
 
         }
-
         dfs(1);
-
         System.out.println(count);
 
-
-
-
-
     }
-
-
-
-
 
 
 }

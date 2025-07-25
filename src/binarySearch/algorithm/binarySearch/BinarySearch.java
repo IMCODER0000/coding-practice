@@ -15,7 +15,6 @@ public class BinarySearch {
         // 1 - 3  mid = 2  t = 5  => 6
         // 1 - 2  mid = 1  t = 5  => 4
         // 1 - 1 mid = 1  t = 5  => 4
-
         while (left <= right) {
             int mid = (left+right) / 2;
             if (arr[mid] == target) {
@@ -32,7 +31,6 @@ public class BinarySearch {
         return -1;
 
     }
-
 
     public static void main(String[] args) {
 

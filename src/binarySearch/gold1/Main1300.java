@@ -9,7 +9,6 @@ public class Main1300 {
 
         // N = ArrSize
         // k = B[k] - answerIndex;
-
         BufferedReader br = new BufferedReader(new BufferedReader(new InputStreamReader(System.in)));
 
         // 0 0 0 0    --- N
@@ -51,10 +50,6 @@ public class Main1300 {
                 left = mid + 1;
             }
         }
-
-
-
-
 
         System.out.println(result);
 

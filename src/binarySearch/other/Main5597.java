@@ -15,7 +15,6 @@ public class Main5597 {
             int student = Integer.parseInt(br.readLine());
             students[student] = 1;
         }
-
 //        System.out.println(students[30]);
 
         for(int i = 0; i<30; i++){

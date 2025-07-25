@@ -9,15 +9,14 @@ import java.util.Queue;
 public class Main2606_2 {
 
     static ArrayList<Integer>[] graph;
-
     static boolean[] visited;
     static int count;
+
 
     static void bfs(int node) {
         Queue<Integer> q = new LinkedList<>();
         q.add(node);
         visited[node] = true;
-
         while(!q.isEmpty()){
             int poll = q.poll();
             for (int next : graph[poll]) {

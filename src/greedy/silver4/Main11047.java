@@ -17,7 +17,6 @@ public class Main11047 {
         int count = 0;
         int sum = K;
 
-
         for (int i = 0; i < coins.length; i++) {
             coins[i] = Integer.parseInt(br.readLine());
         }
@@ -28,11 +27,7 @@ public class Main11047 {
                 sum%=coins[i];
             }
         }
-
         System.out.println(count);
-
-
-
 
     }
 

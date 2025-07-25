@@ -52,7 +52,6 @@ public class Main1987ByBFS_BAD {
                 if (poll.isPassed.contains(Board[nx][ny]) || Board[nx][ny] == null ) {
                     continue;
                 }
-
                 HashSet<String> isPassed1 = new HashSet<>(poll.isPassed);
                 isPassed1.add(Board[nx][ny]);
                 q.offer(new Point(nx, ny, poll.depth + 1, isPassed1));

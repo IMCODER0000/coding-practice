@@ -12,7 +12,6 @@ public class Main1931 {
 
         int N = Integer.parseInt(br.readLine());
         int[][] Is = new int[N][2];
-
         for (int i = 0; i < N; i++) {
             String[] ab = br.readLine().split(" ");
             int a = Integer.parseInt(ab[0]);
@@ -21,8 +20,6 @@ public class Main1931 {
             Is[i][1] = b;
 
         }
-
-
         Arrays.sort(Is, (a, b) -> {
             if (a[1] == b[1]) return a[0] - b[0];
             return a[1] - b[1];

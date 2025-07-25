@@ -15,9 +15,6 @@ public class Orchard {
         this.shineMuscat = shineMuscat;
     }
 
-//    public Long setStock(Fruit fruit, Long stock) {
-//
-//    }
 
     public void inquiry(){
         System.out.println("------------------------------");

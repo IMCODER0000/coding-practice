@@ -7,8 +7,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class Main2143 {
-
-
     public static long Upper(List<Long> arr, int target){
         long left = 0;
         long right = arr.size();
@@ -24,11 +22,7 @@ public class Main2143 {
             } else{
                 right = mid ;
             }
-
         }
-
-
-
         return left;
     }
 

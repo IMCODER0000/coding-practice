@@ -16,13 +16,7 @@ public class bufferReader {
         for (int i = 0; i < viewPath.length; i ++) {
             sb.append(viewPath[i] + " ");
         }
-
         System.out.println(sb);
-
-
-
-
-
 
     }
 

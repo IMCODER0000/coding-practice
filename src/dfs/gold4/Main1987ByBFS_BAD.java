@@ -11,8 +11,6 @@ import java.util.Set;
 public class Main1987ByBFS_BAD {
 
     static String[][] Board;
-
-
     static int[] dx = {-1, 1, 0, 0};
     static int[] dy = {0, 0, -1, 1};
     static Set<String> isPassed;
@@ -41,7 +39,6 @@ public class Main1987ByBFS_BAD {
         Set<String> isPassed = new HashSet<>();
         isPassed.add(Board[x][y]);
         q.offer(new Point(x, y, depth, isPassed));
-
         while (!q.isEmpty()) {
             Point poll = q.poll();
 //            Max = Math.max(Max, poll.depth);
@@ -49,11 +46,9 @@ public class Main1987ByBFS_BAD {
             for (int i = 0; i < 4; i++) {
                 int nx = poll.x + dx[i];
                 int ny = poll.y + dy[i];
-
                 if (nx < 1 || ny < 1 || nx >= R + 1 || ny >= C + 1) {
                     continue;
                 }
-
                 if (poll.isPassed.contains(Board[nx][ny]) || Board[nx][ny] == null ) {
                     continue;
                 }
